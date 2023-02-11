@@ -3,7 +3,7 @@ export function Example() {
         <div>
           <h2>例</h2>
           <div>
-            <p>I'm used to speaking English.</p>
+            <p>I&apos;m used to speaking English.</p>
             <p>わたしは英語を話すことに慣れています。</p>
           </div>
           <div>
