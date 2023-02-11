@@ -1,4 +1,16 @@
-export function eachNote(props) {    
+type Props = {
+    name: string
+    h2?: string
+    h2Description?: string
+    h301?: string
+    h301Description?: string
+    h302?: string
+    h302Description?: string
+    h303?: string
+    h303Description?: string
+};
+
+export function EachNote(props: Props) {    
     return (
         <div>
             <p> {props.name} </p>
