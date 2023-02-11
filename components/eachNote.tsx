@@ -1,13 +1,13 @@
 type Props = {
     name: string
     h2?: string
-    h2Description?: string
+    p2?: string
     h301?: string
-    h301Description?: string
+    p301?: string
     h302?: string
-    h302Description?: string
+    p302?: string
     h303?: string
-    h303Description?: string
+    p303?: string
 };
 
 export function EachNote(props: Props) {    
@@ -15,13 +15,13 @@ export function EachNote(props: Props) {
         <div>
             <p> {props.name} </p>
             <h2> {props.h2} </h2>
-            <p> {props.h2Description} </p>
+            <p> {props.p2} </p>
             <h3> {props.h301} </h3>
-            <p> {props.h301Description} </p>
+            <p> {props.p301} </p>
             <h3> {props.h302} </h3>
-            <p> {props.h302Description} </p>
+            <p> {props.p302} </p>
             <h3> {props.h303} </h3>
-            <p> {props.h303Description} </p>
+            <p> {props.p303} </p>
         </div>
     );
 };  
