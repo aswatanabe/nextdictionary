@@ -10,21 +10,17 @@ import { More } from "@/components/more"
 export default function Home() {
   return (
     <>
-      <header>HEADER</header>
-      <main>
-        <div><p>検索窓</p></div>
-        <div><p>広告1</p></div>
-        <Keyword />
-        <Tips />
-        <Japanese />
-        <English />
-        <Description />
-        <Example />
-        <div><p>広告2</p></div>
-        <Note />
-        <More />
-      </main>
-      <footer>FOOTER</footer>
+      <div><p>検索窓</p></div>
+      <div><p>広告1</p></div>
+      <Keyword />
+      <Tips />
+      <Japanese />
+      <English />
+      <Description />
+      <Example />
+      <div><p>広告2</p></div>
+      <Note />
+      <More />
     </>
   )
 }
