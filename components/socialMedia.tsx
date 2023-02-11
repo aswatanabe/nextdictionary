@@ -1,5 +1,9 @@
 import Link from "next/link";
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import PinterestIcon from '@mui/icons-material/Pinterest';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 export function SocialMedia() {
     return (
@@ -11,16 +15,29 @@ export function SocialMedia() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/">Instagram</Link>
+                    <Link href="/">
+                        <InstagramIcon />
+                    </Link>
                 </li>
                 <li>
-                    <Link href="/">Twitter</Link>
+                    <Link href="/">
+                        <TwitterIcon />
+                    </Link>
                 </li>
                 <li>
-                    <Link href="/">Pinterest</Link>
+                    <Link href="/">
+                        <PinterestIcon />
+                    </Link>
                 </li>
                 <li>
-                    <Link href="/">TikTok</Link>
+                    <Link href="/">
+                        <YouTubeIcon />
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/">
+                        TikTok
+                    </Link>
                 </li>
             </ul>
         </div>

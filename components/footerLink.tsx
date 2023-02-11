@@ -1,25 +1,23 @@
 import Link from "next/link";
 
-export function SocialMedia() {
+export function FooterLink() {
     return (
         <div>
             <ul>
                 <li>
-                    <Link href="/">
-                        <FacebookRoundedIcon />
-                    </Link>
+                    <Link href="/">Next Dictionaryについて</Link>
                 </li>
                 <li>
-                    <Link href="/">Instagram</Link>
+                    <Link href="/">Next Dictionaryの使い方</Link>
                 </li>
                 <li>
-                    <Link href="/">Twitter</Link>
+                    <Link href="/">著作権</Link>
                 </li>
                 <li>
-                    <Link href="/">Pinterest</Link>
+                    <Link href="/">プライバシーポリシー</Link>
                 </li>
                 <li>
-                    <Link href="/">TikTok</Link>
+                    <Link href="/">お問い合わせ</Link>
                 </li>
             </ul>
         </div>
