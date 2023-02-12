@@ -56,3 +56,19 @@ a {
 	color: inherit;
 	text-decoration: none;
 }
+
+@media (hover: hover) {
+	a:hover {
+		color: var(--accent);
+	}
+}
+
+@media (hover: none) {
+	a {
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	a:active {
+		color: var(--accent);
+	}
+}
