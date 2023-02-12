@@ -1,4 +1,5 @@
 import Link from "next/link";
+import styles from 'styles/socialMedia.module.css';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -8,7 +9,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 export function SocialMedia() {
     return (
         <div>
-            <ul>
+            <ul className={styles.list}>
                 <li>
                     <Link href="/">
                         <FacebookRoundedIcon />
