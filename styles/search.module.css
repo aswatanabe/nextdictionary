@@ -1,0 +1,30 @@
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15vh;
+	background-color: var(--accent);
+}
+
+.paper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px 4px;
+	width: max(40%, 400px);
+	height: 10vh;
+}
+
+.inputBase {
+	flex: 1;
+	margin-left: 1em;
+}
+
+.iconButton {
+	padding: 10px;
+}
+
+.divider {
+	margin: 0.5em;
+	height: 8vh;
+}

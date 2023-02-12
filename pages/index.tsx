@@ -1,3 +1,4 @@
+import { Search } from "@/components/search"
 import { Keyword } from "@/components/keyword"
 import { Tips } from "@/components/tips"
 import { Japanese } from "@/components/japanese"
@@ -10,7 +11,7 @@ import { More } from "@/components/more"
 export default function Home() {
   return (
     <>
-      <div><p>検索窓</p></div>
+      <Search />
       <div><p>広告1</p></div>
       <Keyword />
       <Tips />
