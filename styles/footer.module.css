@@ -1,0 +1,16 @@
+.flexContainer {
+    composes: sideBySideCenter from 'styles/utils.module.css';
+	gap: var(--space-md);
+	padding-block: var(--space-md);
+	background-color: var(--accent);
+}
+
+@media (min-width: 768px) {
+	.flexContainer {
+		align-items: flex-start;
+	}
+}
+
+.footerGap {
+	gap: var(--space-md);
+}

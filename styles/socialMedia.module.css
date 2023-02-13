@@ -1,6 +1,7 @@
 .list {
 	display: flex;
 	gap: 2em;
+	margin-block-start: var(--space-md);
 }
 
 .list a:hover {
