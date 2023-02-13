@@ -1,0 +1,10 @@
+.default {
+    inline-size: 92%;
+    max-inline-size: 1152px;
+    margin: 0 auto;
+}
+
+.large {
+    composes: default;
+    max-inline-size: 1280px;
+}

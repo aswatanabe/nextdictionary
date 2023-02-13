@@ -1,8 +1,11 @@
+.wrapper {
+	background-color: var(--accent);
+}
+
 .flexContainer {
     composes: sideBySideCenter from 'styles/utils.module.css';
 	gap: var(--space-md);
 	padding-block: var(--space-md);
-	background-color: var(--accent);
 }
 
 @media (min-width: 768px) {
