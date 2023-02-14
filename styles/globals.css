@@ -13,7 +13,6 @@
 	/* --heading1: clamp(2rem, 1.3rem + 3vw, 4rem); 32-64px */
 	/* --heading2: calc(var(--body) * 1.5); 24-27px */
 	/* --heading3: calc(var(--body) * 1.2); 19.2-21.6px */
-	/* --heading1: calc(var(--body) * 1.2); */
 	--heading1: calc(var(--body) * 1.2);
 	--heading2: calc(var(--body) * 1.1);
 	--heading3: calc(var(--body) * 1.0);
@@ -26,6 +25,10 @@
 	--space-lg: calc(var(--space-xs) * 3); /* 60-90px */
 	--space-xl: calc(var(--space-xs) * 4); /* 80-120px */
 	--space-jump: clamp(1.25rem, 0.35rem + 3.8vw, 3.75rem); /* 20-60px*/
+
+	color: var(--black);
+	font-family: 'Noto Sans', 'Noto Sans JP', 'Hiragino Sans','Meiryo','Hiragino Kaku Gothic ProN', sans-serif;
+	font-size: var(--body);
 }
 
 /* リセット */
@@ -39,13 +42,6 @@ body, h1, h2, h3, p, figure, ul {
 	box-sizing: border-box;
 }
 
-/* 書式 */
-color: var(--black);
-
-font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
-
-font-size: var(--body);
-
 h1 {
 	font-size: var(--heading1);
 }
@@ -56,6 +52,7 @@ h2 {
 
 h3 {
 	font-size: var(--heading3);
+	font-weight: 400;
 }
 
 p {
