@@ -1,6 +1,12 @@
+import React from 'react';
 import styles from "styles/twoColumn.module.css";
 
-export function TwoColumn({ children }) {
+type Props={
+	children: React.ReactNode;
+};
+
+
+export function TwoColumn({ children } : Props) {
     return (
         <div className={styles.flexContainer}>
             {children}
@@ -8,7 +14,7 @@ export function TwoColumn({ children }) {
     )
 }
 
-export function TwoColumnMain({ children }) {
+export function TwoColumnMain({ children } : Props) {
     return (
         <div className={styles.main}>
             {children}
@@ -16,7 +22,7 @@ export function TwoColumnMain({ children }) {
     )
 }
 
-export function TwoColumnSidebar({ children }) {
+export function TwoColumnSidebar({ children } : Props) {
     return (
         <div className={styles.sidebar}>
             {children}
