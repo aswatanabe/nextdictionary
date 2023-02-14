@@ -14,16 +14,19 @@ export default function Home() {
 		<>
 			<Search />
 			<Container>
-				<div><p>広告1</p></div>
-				<Keyword />
-				<Tips />
-				<Japanese />
-				<English />
-				<Description />
-				<Example />
-				<div><p>広告2</p></div>
-				<Note />
-				<More />
+				<div>
+					<div><p>広告メイン1</p></div>
+					<Keyword />
+					<Tips />
+					<Japanese />
+					<English />
+					<Description />
+					<Example />
+					<div><p>広告メイン2</p></div>
+					<Note />
+					<More />
+					<div><p>広告サイド</p></div>
+				</div>
 			</Container>
 		</>
 	)

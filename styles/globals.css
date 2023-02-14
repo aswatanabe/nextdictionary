@@ -10,9 +10,13 @@
 
 	--body: clamp(1rem, 0.95rem + 0.2vw, 1.125rem); /* 16-18px */
 	--display: clamp(4.5rem, 1.83rem + 11.34vw, 10rem); /* 72-160 px*/
-	--heading1: clamp(2rem, 1.3rem + 3vw, 4rem); /* 32-64px*/
-	--heading2: calc(var(--body) * 1.5); /* 24-27px */
-	--heading3: calc(var(--body) * 1.2); /* 19.2-21.6px */
+	/* --heading1: clamp(2rem, 1.3rem + 3vw, 4rem); 32-64px */
+	/* --heading2: calc(var(--body) * 1.5); 24-27px */
+	/* --heading3: calc(var(--body) * 1.2); 19.2-21.6px */
+	/* --heading1: calc(var(--body) * 1.2); */
+	--heading1: calc(var(--body) * 1.2);
+	--heading2: calc(var(--body) * 1.1);
+	--heading3: calc(var(--body) * 1.0);
 	--small-heading2: clamp(0.875rem, 4vw -1rem, 1.6875rem) /* 14-27px */
 	--small-heading3: clac(var(--small-heading2) * 0.86); /* 12-23px */
 
@@ -24,9 +28,22 @@
 	--space-jump: clamp(1.25rem, 0.35rem + 3.8vw, 3.75rem); /* 20-60px*/
 }
 
-/* 基本設定 */
+/* リセット */
+body, h1, h2, h3, p, figure, ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+/* 書式 */
 color: var(--black);
+
 font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+
 font-size: var(--body);
 
 h1 {
@@ -41,15 +58,8 @@ h3 {
 	font-size: var(--heading3);
 }
 
-/* リセット */
-body, h1, h2, h3, p, figure, ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-*, *::before, *::after {
-	box-sizing: border-box;
+p {
+	line-height: 1.8;
 }
 
 a {
@@ -71,4 +81,9 @@ a {
 	a:active {
 		color: var(--accent);
 	}
+}
+
+/* レイアウト */
+h2, h3 {
+	margin-block-start: var(--space-xs);
 }
