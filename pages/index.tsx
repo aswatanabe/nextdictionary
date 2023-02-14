@@ -1,4 +1,5 @@
 import { Container } from "@/components/container"
+import { TwoColumn, TwoColumnMain, TwoColumnSidebar } from "@/components/twoColumn"
 import { Search } from "@/components/search"
 import { Keyword } from "@/components/keyword"
 import { Tips } from "@/components/tips"
@@ -14,19 +15,23 @@ export default function Home() {
 		<>
 			<Search />
 			<Container>
-				<div>
-					<div><p>広告メイン1</p></div>
-					<Keyword />
-					<Tips />
-					<Japanese />
-					<English />
-					<Description />
-					<Example />
-					<div><p>広告メイン2</p></div>
-					<Note />
-					<More />
-					<div><p>広告サイド</p></div>
-				</div>
+				<TwoColumn>
+					<TwoColumnMain>
+						<div><p>広告メイン1</p></div>
+						<Keyword />
+						<Tips />
+						<Japanese />
+						<English />
+						<Description />
+						<Example />
+						<div><p>広告メイン2</p></div>
+						<Note />
+						<More />
+					</TwoColumnMain>
+					<TwoColumnSidebar>
+						<div><p>広告サイド</p></div>
+					</TwoColumnSidebar>
+				</TwoColumn>
 			</Container>
 		</>
 	)

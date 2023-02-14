@@ -1,0 +1,23 @@
+.flexContainer {
+    composes: sideBySide from "./utils.module.css";
+    gap: var(--space-md);
+    margin: var(--space-md) 0 var(--space-lg);
+}
+
+.sidebar {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .main {
+        inline-size: 768px;
+    }
+
+    .sidebar {
+        display: unset;
+        inline-size: 240px;
+        position: sticky;
+        inset-block-start: 40px;
+        align-self: flex-start;
+    }
+}
