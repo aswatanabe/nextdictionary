@@ -56,7 +56,7 @@ h3 {
 }
 
 p {
-	line-height: 1.8;
+	line-height: 1.5;
 }
 
 a {
@@ -81,6 +81,10 @@ a {
 }
 
 /* レイアウト */
-h2, h3 {
-	margin-block-start: var(--space-xs);
+h2 {
+	margin-block-start: var(--space-sm);
+}
+
+h2 + * {
+	margin-block-start: var(--space-sm);
 }
