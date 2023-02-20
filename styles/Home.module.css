@@ -1,9 +1,12 @@
+.wrapper {
+    padding-block: var(--space-xl);
+    background-color: var(--accent);
+}
+
 .title {
     display: grid;
     place-content: center;
-    padding-block-start: var(--space-xl);
     font-size: calc(var(--body) * 2.5);
     letter-spacing: 0.05em;
     color: var(--white);
-    background-color: var(--accent);
 }
