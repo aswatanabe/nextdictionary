@@ -1,0 +1,19 @@
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+	background-color: var(--accent);
+}
+
+.paper {
+	inline-size: max(40%, 400px);
+	block-size: 50vh;
+    background-color: var(--white);
+}
+
+.divider {
+    display: block;
+    margin: 0 auto;
+    inline-size: 90%
+}
