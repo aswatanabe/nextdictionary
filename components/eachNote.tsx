@@ -1,5 +1,5 @@
 import React from "react";
-import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
+import AttachFileIcon from '@mui/icons-material/AttachFile';
 import styles from "styles/eachNote.module.css";
 
 type Props = {
@@ -13,7 +13,7 @@ type Props = {
 export function EachNote(props: Props) {
     return (
         <div className={styles.captionBox}>
-            <p className={styles.caption}><TipsAndUpdatesIcon />{props.name}</p>
+            <p className={styles.caption}><AttachFileIcon />{props.name}</p>
             <h2>{props.h2}</h2>
             <p className={styles.p2}>{props.p2}</p>
             {props.h3?.map((h, i) => (

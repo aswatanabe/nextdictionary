@@ -1,20 +1,9 @@
 .captionBox{
-	position: relative;
-	margin-block: var(--space-md);
-	padding-inline: 2em;
-	padding-block-end: 1em;
-	border: 1px solid;
+	composes: captionBox from "styles/utils.module.css";
 }
-  
-.captionBox .caption{
-	position: absolute;
-	display: flex;
-	inset-block-start: 0;
-	inset-inline-start: 0;
-    padding: 0 1em;
-    margin: 0;
-    background-color: white;
-    transform: translateY(-50%) translateX(1em);
+
+.caption{
+	composes: caption from "styles/utils.module.css";
 }
 
 .p2 {
