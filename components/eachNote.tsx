@@ -1,4 +1,6 @@
 import React from "react";
+import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
+import styles from "styles/eachNote.module.css";
 
 type Props = {
     name: string
@@ -10,21 +12,16 @@ type Props = {
 
 export function EachNote(props: Props) {
     return (
-        <div>
-            <p>{props.name}</p>
+        <div className={styles.captionBox}>
+            <p className={styles.caption}><TipsAndUpdatesIcon />{props.name}</p>
             <h2>{props.h2}</h2>
-            <p>{props.p2}</p>
+            <p className={styles.p2}>{props.p2}</p>
             {props.h3?.map((h, i) => (
                 <React.Fragment key={i}>
                     <h3>{h}</h3>
-                    <p>{props.p3?.[i]}</p>
+                    <p className={styles.p3}>{props.p3?.[i]}</p>
                 </React.Fragment>
             ))}
         </div>
     );
 };
-    
-    
-    
-    
-    
