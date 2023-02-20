@@ -16,6 +16,7 @@ export function Footer() {
                     <FooterLink />
                 </div>
             </Container>
+            <small className={styles.footerEnd}>© 2023 Next Dictionary</small>
         </footer>
     )
 }

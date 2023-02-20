@@ -1,11 +1,22 @@
+.top {
+	background-color: var(--white);
+}
+
 .wrapper {
-	background-color: var(--accent);
+	background-color: var(--gray-10);
 }
 
 .flexContainer {
     composes: sideBySideCenter from 'styles/utils.module.css';
 	gap: var(--space-md);
 	padding-block: var(--space-md);
+}
+
+.footerEnd {
+	display: grid;
+	place-content: center;
+	padding-block: var(--space-xs);
+	background-color: var(--accent);
 }
 
 @media (min-width: 768px) {
