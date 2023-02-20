@@ -1,0 +1,12 @@
+.captionBox{
+    composes: captionBox from "styles/utils.module.css";
+}
+
+.caption{
+    composes: caption from "styles/utils.module.css";
+}
+
+.dd {
+	margin-block-start: 0.5em;
+	margin-block-end: var(--space-xs);
+}
