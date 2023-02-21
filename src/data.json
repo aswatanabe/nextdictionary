@@ -1,0 +1,81 @@
+{
+    "data": {
+        "meta": {
+            "title":"be used to",
+            "description": "be used toの意味・使い方・例文・よく問われる問題形式について解説しています。"
+        },
+		"keyword": {
+			"h1": "be used to",
+			"p": [
+				"助動詞",
+				"熟語"
+			]
+		},
+		"tips": [
+			"発音に注意",
+			"be used to / get used to の違いに注意",
+			"used to 原形 / be used to -ing / be used to 原形 の違いに注意"
+		],
+		"japanese": {
+			"be used to 名詞で「名詞に慣れている」"
+		},
+		"english": {
+			"quote": "to have experienced something so that it no longer seems surprising, difficult, strange etc",
+			"source": "ロングマン現代英英辞典"
+		},
+		"descriptions": {
+			"text": "＜used（形容詞）＋to（前置詞）＋名詞＞の形。usedは「（人・動物・感覚器官が）（事・モノ・人）に慣れている」という意味を表す形容詞",
+			"imageSrc": hello
+		},
+		"examples": [
+			{
+				"en": "I'm used to speaking English.",
+				"ja": "わたしは英語を話すことに慣れています。"
+			},
+			{
+				"en": "The cat is not used to its new home yet.",
+				"ja": "そのネコはまだ新しい家に慣れていません。"
+			}
+		],
+		"notes": [
+			{
+				"name": "Note 1",
+				"h2": "発音",
+				"p2": "used toは、usedが [juːst] のように発音される"
+			},
+			{
+				"name": "Note 2",
+				"h2": "be used to 原形 / get used to 原形",
+				"h3": [
+					"be used to 「～に慣れている」",
+					"get used to 「～に慣れる」"
+				],
+				"p3": [
+					"\"Aren't you cold?\" \"I'm used to the weather here.\"（「寒くない？」「ここの天気には慣れてるよ」）",
+					"Tomorrow I start a new job. I have to get used to it soon.（明日から新しい仕事だ。早く慣れないと）"
+				]
+			},
+			{
+				"name": "Note 3",
+				"h2": "used to 原形 / be used to -ing / be used to 原形",
+				"h3": [
+					"used to 原形 「よく～したものだ」「昔は～であった」",
+					"be used to -ing 「～するのに慣れている」",
+					"be used to 原形 「～するために使われる」"
+				],
+				"p3": [
+					"I used to cook. Now I don't.（よく料理をしたものだが、今はしない）",
+					"I am used to cooking with herbs and spices.（ハーブやスパイスで料理をすることに慣れている）",
+					"What kitchen equipment is used?（なんのキッチン用品が使われていますか？）"
+				]
+			}
+		],
+		"more": [
+			{
+				"id": 1,
+				"text":"be used to / get used toを使わずに、現在完了形を使って「～に慣れている」を表現することもできる。",
+				"example":"Don't worry. I've done this before.（心配しないで。これをするのは慣れているから）"
+			}
+		]
+	}
+}
