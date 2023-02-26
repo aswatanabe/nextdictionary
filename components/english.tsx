@@ -1,3 +1,4 @@
+// import data from "../data.json";
 import styles from "styles/english.module.css";
 
 export function English() {
@@ -6,6 +7,7 @@ export function English() {
 		source: "ロングマン現代英英辞典",
 	}
 
+	// const english = data.data.english;
     return (
         <div>
 			<h2>英語説明</h2>

@@ -1,3 +1,4 @@
+import data from "../data.json";
 import styles from "styles/example.module.css";
 
 export function Example() {
@@ -11,7 +12,8 @@ export function Example() {
 			ja: "そのネコはまだ新しい家に慣れていません。",
 		},
 	];
-  
+
+	// const examples = data.data.examples;
 	return (
 		<div>
 			<h2>例</h2>
