@@ -1,330 +1,332 @@
-[
-	{	
-		"index": "be used to -ing［名詞］",
-		"data": {
-			"meta": {
-				"title":"be used to -ing[名詞]｜Next Dictionary",
-				"description": "be used toの意味・使い方・例文・よく問われる問題形式について解説しています。"
-			},
-			"keyword": {
-				"h1": "be used to -ing［名詞］",
-				"p": [
-					"動名詞",
-					"イディオム"
+{
+	"dictionary": [
+		{	
+			"index": "be used to -ing［名詞］",
+			"details": {
+				"meta": {
+					"title":"be used to -ing[名詞]｜Next Dictionary",
+					"description": "be used toの意味・使い方・例文・よく問われる問題形式について解説しています。"
+				},
+				"keyword": {
+					"h1": "be used to -ing［名詞］",
+					"p": [
+						"動名詞",
+						"イディオム"
+					]
+				},
+				"tips": [
+					"発音に注意",
+					"be used to -ing［名詞］ / get used to -ing［名詞］ の違いに注意",
+					"used to＋動詞の原形 / be used to -ing［名詞］ / be used to＋動詞の原形 の違いに注意"
+				],
+				"japanese": [
+					"be used to -ing［名詞］で「～に慣れている」"
+				],
+				"english": {
+					"quote": "to have experienced something so that it no longer seems surprising, difficult, strange etc",
+					"source": "ロングマン現代英英辞典"
+				},
+				"descriptions": {
+					"text": "＜be＋used（形容詞）＋to（前置詞）＞の形。usedは「（人・動物・感覚器官が）（事・モノ・人）に慣れている」という意味を表す形容詞。"
+				},
+				"examples": [
+					{
+						"en": "I'm used to speaking English.",
+						"ja": "わたしは英語を話すことに慣れています。"
+					},
+					{
+						"en": "The cat is not used to its new home yet.",
+						"ja": "そのネコはまだ新しい家に慣れていません。"
+					}
+				],
+				"notes": [
+					{
+						"name": "Note 1",
+						"h2": "発音",
+						"p2": "used toは、usedが [juːst] のように発音される"
+					},
+					{
+						"name": "Note 2",
+						"h2": "be used to -ing［名詞］ / get used to -ing［名詞］",
+						"h3": [
+							"be used to -ing［名詞］ 「～に慣れている」",
+							"get used to -ing［名詞］ 「～に慣れる」"
+						],
+						"p3": [
+							"\"Aren't you cold?\" \"I'm used to the weather here.\"（「寒くない？」「ここの天気には慣れてるよ」）",
+							"Tomorrow I start a new job. I have to get used to it soon.（明日から新しい仕事だ。早く慣れないと）"
+						]
+					},
+					{
+						"name": "Note 3",
+						"h2": "used to＋動詞の原形 / be used to -ing［名詞］ / be used to＋動詞の原形",
+						"h3": [
+							"used to＋動詞の原形 「以前は～だった」",
+							"be used to -ing［名詞］ 「～するのに慣れている」",
+							"be used to＋動詞の原形 「～するために使われる」"
+						],
+						"p3": [
+							"I used to cook. Now I don't.（以前は料理をしたが、今はしない）",
+							"I am used to cooking with herbs and spices.（ハーブやスパイスで料理をすることに慣れている）",
+							"What kitchen equipment is used?（なんのキッチン用品が使われていますか？）"
+						]
+					}
+				],
+				"more": [
+					{
+						"id": 1,
+						"text":"be used to -ing［名詞］ / get used to -ing［名詞］を使わずに、現在完了形を使って「～に慣れている」を表現することもできる。",
+						"example":"Don't worry. I've done this before.（心配しないで。これをするのは慣れているから）"
+					}
 				]
-			},
-			"tips": [
-				"発音に注意",
-				"be used to -ing［名詞］ / get used to -ing［名詞］ の違いに注意",
-				"used to＋動詞の原形 / be used to -ing［名詞］ / be used to＋動詞の原形 の違いに注意"
-			],
-			"japanese": [
-				"be used to -ing［名詞］で「～に慣れている」"
-			],
-			"english": {
-				"quote": "to have experienced something so that it no longer seems surprising, difficult, strange etc",
-				"source": "ロングマン現代英英辞典"
-			},
-			"descriptions": {
-				"text": "＜be＋used（形容詞）＋to（前置詞）＞の形。usedは「（人・動物・感覚器官が）（事・モノ・人）に慣れている」という意味を表す形容詞。"
-			},
-			"examples": [
-				{
-					"en": "I'm used to speaking English.",
-					"ja": "わたしは英語を話すことに慣れています。"
+			}
+		},
+		{	
+			"index": "get used to -ing［名詞］",
+			"details": {
+				"meta": {
+					"title":"get used to -ing［名詞］|Next Dictionary",
+					"description": "get used to -ing［名詞］の意味・使い方・例文・よく問われる問題形式について解説しています。"
 				},
-				{
-					"en": "The cat is not used to its new home yet.",
-					"ja": "そのネコはまだ新しい家に慣れていません。"
-				}
-			],
-			"notes": [
-				{
-					"name": "Note 1",
-					"h2": "発音",
-					"p2": "used toは、usedが [juːst] のように発音される"
-				},
-				{
-					"name": "Note 2",
-					"h2": "be used to -ing［名詞］ / get used to -ing［名詞］",
-					"h3": [
-						"be used to -ing［名詞］ 「～に慣れている」",
-						"get used to -ing［名詞］ 「～に慣れる」"
-					],
-					"p3": [
-						"\"Aren't you cold?\" \"I'm used to the weather here.\"（「寒くない？」「ここの天気には慣れてるよ」）",
-						"Tomorrow I start a new job. I have to get used to it soon.（明日から新しい仕事だ。早く慣れないと）"
+				"keyword": {
+					"h1": "get used to -ing［名詞］",
+					"p": [
+						"動名詞",
+						"イディオム"
 					]
 				},
-				{
-					"name": "Note 3",
-					"h2": "used to＋動詞の原形 / be used to -ing［名詞］ / be used to＋動詞の原形",
-					"h3": [
-						"used to＋動詞の原形 「以前は～だった」",
-						"be used to -ing［名詞］ 「～するのに慣れている」",
-						"be used to＋動詞の原形 「～するために使われる」"
-					],
-					"p3": [
-						"I used to cook. Now I don't.（以前は料理をしたが、今はしない）",
-						"I am used to cooking with herbs and spices.（ハーブやスパイスで料理をすることに慣れている）",
-						"What kitchen equipment is used?（なんのキッチン用品が使われていますか？）"
-					]
-				}
-			],
-			"more": [
-				{
-					"id": 1,
-					"text":"be used to -ing［名詞］ / get used to -ing［名詞］を使わずに、現在完了形を使って「～に慣れている」を表現することもできる。",
-					"example":"Don't worry. I've done this before.（心配しないで。これをするのは慣れているから）"
-				}
-			]
-		}
-	},
-	{	
-		"index": "get used to -ing［名詞］",
-		"data": {
-			"meta": {
-				"title":"get used to -ing［名詞］|Next Dictionary",
-				"description": "get used to -ing［名詞］の意味・使い方・例文・よく問われる問題形式について解説しています。"
-			},
-			"keyword": {
-				"h1": "get used to -ing［名詞］",
-				"p": [
-					"動名詞",
-					"イディオム"
+				"tips": [
+					"発音に注意",
+					"be used to -ing［名詞］ / get used to -ing［名詞］ の違いに注意",
+					"used to＋動詞の原形 / be used to -ing［名詞］ / be used to＋動詞の原形 の違いに注意"
+				],
+				"japanese": [
+					"get used to -ing［原形］で「～に慣れる」"
+				],
+				"english": {
+					"quote": "to have experienced something so that it no longer seems surprising, difficult, strange etc",
+					"source": "ロングマン現代英英辞典"
+				},
+				"descriptions": {
+					"text": "＜used（形容詞）＋to（前置詞）＋名詞＞の形。usedは「（人・動物・感覚器官が）（事・モノ・人）に慣れている」という意味を表す形容詞。",
+					"imageSrc": "hello",
+					"imageAlt": "hello"
+				},
+				"examples": [
+					{
+						"en": "I'm used to speaking English.",
+						"ja": "わたしは英語を話すことに慣れています。"
+					},
+					{
+						"en": "The cat is not used to its new home yet.",
+						"ja": "そのネコはまだ新しい家に慣れていません。"
+					}
+				],
+				"notes": [
+					{
+						"name": "Note 1",
+						"h2": "発音",
+						"p2": "used toは、usedが [juːst] のように発音される"
+					},
+					{
+						"name": "Note 2",
+						"h2": "be used to -ing［名詞］ / get used to -ing［名詞］",
+						"h3": [
+							"be used to -ing［名詞］ 「～に慣れている」",
+							"get used to -ing［名詞］ 「～に慣れる」"
+						],
+						"p3": [
+							"\"Aren't you cold?\" \"I'm used to the weather here.\"（「寒くない？」「ここの天気には慣れてるよ」）",
+							"Tomorrow I start a new job. I have to get used to it soon.（明日から新しい仕事だ。早く慣れないと）"
+						]
+					},
+					{
+						"name": "Note 3",
+						"h2": "used to＋動詞の原形 / be used to -ing［名詞］ / be used to＋動詞の原形",
+						"h3": [
+							"used to＋動詞の原形 「以前は～だった」",
+							"be used to -ing［名詞］ 「～するのに慣れている」",
+							"be used to＋動詞の原形 「～するために使われる」"
+						],
+						"p3": [
+							"I used to cook. Now I don't.（以前は料理をしたが、今はしない）",
+							"I am used to cooking with herbs and spices.（ハーブやスパイスで料理をすることに慣れている）",
+							"What kitchen equipment is used?（なんのキッチン用品が使われていますか？）"
+						]
+					}
 				]
-			},
-			"tips": [
-				"発音に注意",
-				"be used to -ing［名詞］ / get used to -ing［名詞］ の違いに注意",
-				"used to＋動詞の原形 / be used to -ing［名詞］ / be used to＋動詞の原形 の違いに注意"
-			],
-			"japanese": [
-				"get used to -ing［原形］で「～に慣れる」"
-			],
-			"english": {
-				"quote": "to have experienced something so that it no longer seems surprising, difficult, strange etc",
-				"source": "ロングマン現代英英辞典"
-			},
-			"descriptions": {
-				"text": "＜used（形容詞）＋to（前置詞）＋名詞＞の形。usedは「（人・動物・感覚器官が）（事・モノ・人）に慣れている」という意味を表す形容詞。",
-				"imageSrc": "hello",
-				"imageAlt": "hello"
-			},
-			"examples": [
-				{
-					"en": "I'm used to speaking English.",
-					"ja": "わたしは英語を話すことに慣れています。"
+			}
+		},
+		{	
+			"index": "used to＋動詞の原形",
+			"details": {
+				"meta": {
+					"title":"used to＋動詞の原形｜Next Dictionary",
+					"description": "used to＋動詞の原形 の意味・使い方・例文・よく問われる問題形式について解説しています。"
 				},
-				{
-					"en": "The cat is not used to its new home yet.",
-					"ja": "そのネコはまだ新しい家に慣れていません。"
-				}
-			],
-			"notes": [
-				{
-					"name": "Note 1",
-					"h2": "発音",
-					"p2": "used toは、usedが [juːst] のように発音される"
-				},
-				{
-					"name": "Note 2",
-					"h2": "be used to -ing［名詞］ / get used to -ing［名詞］",
-					"h3": [
-						"be used to -ing［名詞］ 「～に慣れている」",
-						"get used to -ing［名詞］ 「～に慣れる」"
-					],
-					"p3": [
-						"\"Aren't you cold?\" \"I'm used to the weather here.\"（「寒くない？」「ここの天気には慣れてるよ」）",
-						"Tomorrow I start a new job. I have to get used to it soon.（明日から新しい仕事だ。早く慣れないと）"
+				"keyword": {
+					"h1": "used to＋動詞の原形",
+					"p": [
+						"助動詞"
 					]
 				},
-				{
-					"name": "Note 3",
-					"h2": "used to＋動詞の原形 / be used to -ing［名詞］ / be used to＋動詞の原形",
-					"h3": [
-						"used to＋動詞の原形 「以前は～だった」",
-						"be used to -ing［名詞］ 「～するのに慣れている」",
-						"be used to＋動詞の原形 「～するために使われる」"
-					],
-					"p3": [
-						"I used to cook. Now I don't.（以前は料理をしたが、今はしない）",
-						"I am used to cooking with herbs and spices.（ハーブやスパイスで料理をすることに慣れている）",
-						"What kitchen equipment is used?（なんのキッチン用品が使われていますか？）"
-					]
-				}
-			]
-		}
-	},
-	{	
-		"index": "used to＋動詞の原形",
-		"data": {
-			"meta": {
-				"title":"used to＋動詞の原形｜Next Dictionary",
-				"description": "used to＋動詞の原形 の意味・使い方・例文・よく問われる問題形式について解説しています。"
-			},
-			"keyword": {
-				"h1": "used to＋動詞の原形",
-				"p": [
-					"助動詞"
+				"tips": [
+					"発音に注意",
+					"used to＋動詞の原形 / be used to -ing［名詞］ / be used to＋動詞の原形 の違いに注意",
+					"used to＋動詞の原形 / would の違いに注意"
+				],
+				"japanese": [
+					"used to＋動詞の原形 で「以前は～だった」"
+				],
+				"english": {
+					"quote": "if something used to happen, it happened regularly or all the time in the past, but does not happen now / if a particular situation used to exist, it existed for a period of time in the past, but does not exist now",
+					"source": "ロングマン現代英英辞典"
+				},
+				"descriptions": {
+					"text": "used toは、「以前は～だったけど、今はそうではない」というように、過去の習慣や状態と現在を対比するときに使う。"
+				},
+				"examples": [
+					{
+						"en": "I used to live in Sydney.",
+						"ja": "わたしは以前シドニーに住んでいました。"
+					},
+					{
+						"en": "This building use to be a hotel.",
+						"ja": "この建物は以前はホテルでした。"
+					}
+				],
+				"notes": [
+					{
+						"name": "Note 1",
+						"h2": "発音",
+						"p2": "used toは、usedが [juːst] のように発音される"
+					},
+					{
+						"name": "Note 2",
+						"h2": "used to＋動詞の原形 / be used to -ing［名詞］ / be used to＋動詞の原形",
+						"h3": [
+							"used to＋動詞の原形 「以前は～だった」",
+							"be used to -ing［名詞］ 「～するのに慣れている」",
+							"be used to＋動詞の原形 「～するために使われる」"
+						],
+						"p3": [
+							"I used to cook. Now I don't.（以前は料理をしたが、今はしない）",
+							"I am used to cooking with herbs and spices.（ハーブやスパイスで料理をすることに慣れている）",
+							"What kitchen equipment is used?（なんのキッチン用品が使われていますか？）"
+						]
+					},
+					{
+						"name": "Note 3",
+						"h2": "used to＋動詞の原形 / would＋動詞の原形",
+						"h3": [
+							"used to＋動詞の原形 「以前は～だった」（現在との対比）",
+							"would＋動詞の原形 「過去には～をよくしたものだ」（現在との対比は意識されない）"
+						],
+						"p3": [
+							"I used to cook. Now I don't.（以前は料理をしたが、今はしない）",
+							"My grandma would often cook dinner for us.（祖母はよくわたしたちに夕飯を作ってくれた）"
+						]
+					}
 				]
-			},
-			"tips": [
-				"発音に注意",
-				"used to＋動詞の原形 / be used to -ing［名詞］ / be used to＋動詞の原形 の違いに注意",
-				"used to＋動詞の原形 / would の違いに注意"
-			],
-			"japanese": [
-				"used to＋動詞の原形 で「以前は～だった」"
-			],
-			"english": {
-				"quote": "if something used to happen, it happened regularly or all the time in the past, but does not happen now / if a particular situation used to exist, it existed for a period of time in the past, but does not exist now",
-				"source": "ロングマン現代英英辞典"
-			},
-			"descriptions": {
-				"text": "used toは、「以前は～だったけど、今はそうではない」というように、過去の習慣や状態と現在を対比するときに使う。"
-			},
-			"examples": [
-				{
-					"en": "I used to live in Sydney.",
-					"ja": "わたしは以前シドニーに住んでいました。"
+			}
+		},
+		{	
+			"index": "respectful",
+			"details": {
+				"meta": {
+					"title":"resepctful｜Next Dictionary",
+					"description": "respectfulの意味・使い方・例文・よく問われる問題形式について解説しています。"
 				},
-				{
-					"en": "This building use to be a hotel.",
-					"ja": "この建物は以前はホテルでした。"
-				}
-			],
-			"notes": [
-				{
-					"name": "Note 1",
-					"h2": "発音",
-					"p2": "used toは、usedが [juːst] のように発音される"
-				},
-				{
-					"name": "Note 2",
-					"h2": "used to＋動詞の原形 / be used to -ing［名詞］ / be used to＋動詞の原形",
-					"h3": [
-						"used to＋動詞の原形 「以前は～だった」",
-						"be used to -ing［名詞］ 「～するのに慣れている」",
-						"be used to＋動詞の原形 「～するために使われる」"
-					],
-					"p3": [
-						"I used to cook. Now I don't.（以前は料理をしたが、今はしない）",
-						"I am used to cooking with herbs and spices.（ハーブやスパイスで料理をすることに慣れている）",
-						"What kitchen equipment is used?（なんのキッチン用品が使われていますか？）"
+				"keyword": {
+					"h1": "respectful",
+					"p": [
+						"ボキャブラリー"
 					]
 				},
-				{
-					"name": "Note 3",
-					"h2": "used to＋動詞の原形 / would＋動詞の原形",
-					"h3": [
-						"used to＋動詞の原形 「以前は～だった」（現在との対比）",
-						"would＋動詞の原形 「過去には～をよくしたものだ」（現在との対比は意識されない）"
-					],
-					"p3": [
-						"I used to cook. Now I don't.（以前は料理をしたが、今はしない）",
-						"My grandma would often cook dinner for us.（祖母はよくわたしたちに夕飯を作ってくれた）"
-					]
-				}
-			]
-		}
-	},
-	{	
-		"index": "respectful",
-		"data": {
-			"meta": {
-				"title":"resepctful｜Next Dictionary",
-				"description": "respectfulの意味・使い方・例文・よく問われる問題形式について解説しています。"
-			},
-			"keyword": {
-				"h1": "respectful",
-				"p": [
-					"ボキャブラリー"
+				"tips": [
+					"respectful / respective の違いに注意"
+				],
+				"japanese": [
+					"尊重して、敬意を払って"
+				],
+				"english": {
+					"quote": "feeling or showing respect",
+					"source": "ロングマン現代英英辞典"
+				},
+				"descriptions": {
+					"text": "respect「尊敬」＋ful「満たされたような」。"
+				},
+				"examples": [
+					{
+						"en": "We are respectful of one another.",
+						"ja": "わたしたちは互いを尊重しています。"
+					}
+				],
+				"notes": [
+					{
+						"name": "Note 1",
+						"h2": "respectful / respective",
+						"h3": [
+							"respectful 「尊重して、経緯を払って」",
+							"respective 「それぞれの」"
+						],
+						"p3": [
+							"They have always been respectful to me.（彼らはいつもわたしを尊重してくれる）",
+							"They all went back to their respective bedrooms.（彼らはみなそれぞれの部屋に戻って行った）"
+						]
+					}
 				]
-			},
-			"tips": [
-				"respectful / respective の違いに注意"
-			],
-			"japanese": [
-				"尊重して、敬意を払って"
-			],
-			"english": {
-				"quote": "feeling or showing respect",
-				"source": "ロングマン現代英英辞典"
-			},
-			"descriptions": {
-				"text": "respect「尊敬」＋ful「満たされたような」。"
-			},
-			"examples": [
-				{
-					"en": "We are respectful of one another.",
-					"ja": "わたしたちは互いを尊重しています。"
-				}
-			],
-			"notes": [
-				{
-					"name": "Note 1",
-					"h2": "respectful / respective",
-					"h3": [
-						"respectful 「尊重して、経緯を払って」",
-						"respective 「それぞれの」"
-					],
-					"p3": [
-						"They have always been respectful to me.（彼らはいつもわたしを尊重してくれる）",
-						"They all went back to their respective bedrooms.（彼らはみなそれぞれの部屋に戻って行った）"
+			}
+		},
+		{
+			"index": "respective",
+			"details": {
+				"meta": {
+					"title":"resepctive｜Next Dictionary",
+					"description": "respectiveの意味・使い方・例文・よく問われる問題形式について解説しています。"
+				},
+				"keyword": {
+					"h1": "respective",
+					"p": [
+						"ボキャブラリー"
 					]
-				}
-			]
-		}
-	},
-	{
-		"index": "respective",
-		"data": {
-			"meta": {
-				"title":"resepctive｜Next Dictionary",
-				"description": "respectiveの意味・使い方・例文・よく問われる問題形式について解説しています。"
-			},
-			"keyword": {
-				"h1": "respective",
-				"p": [
-					"ボキャブラリー"
+				},
+				"tips": [
+					"respectful / respective の違いに注意"
+				],
+				"japanese": [
+					"それぞれの"
+				],
+				"english": {
+					"quote": "used before a plural noun to refer to the different things that belong to each separate person or thing mentioned",
+					"source": "ロングマン現代英英辞典"
+				},
+				"descriptions": {
+					"text": "respect「ある物事の側面、相対的な特性や性質」＋-ive「のような」。",
+					"imageSrc": "respective",
+					"imageAlt": "respective"
+				},
+				"examples": [
+					{
+						"en": "We all neet to understand more about our respective cultures.",
+						"ja": "わたしたちは皆それぞれの文化をもっと理解しなければなりません。"
+					}
+				],
+				"notes": [
+					{
+						"name": "Note 1",
+						"h2": "respectful / respective",
+						"h3": [
+							"respectful 「尊重して、敬意を払って」",
+							"respective 「それぞれの」"
+						],
+						"p3": [
+							"They have always been respectful to me.（彼らはいつもわたしを尊重してくれる）",
+							"They all went back to their respective bedrooms.（彼らは皆それぞれの部屋に戻って行った）"
+						]
+					}
 				]
-			},
-			"tips": [
-				"respectful / respective の違いに注意"
-			],
-			"japanese": [
-				"それぞれの"
-			],
-			"english": {
-				"quote": "used before a plural noun to refer to the different things that belong to each separate person or thing mentioned",
-				"source": "ロングマン現代英英辞典"
-			},
-			"descriptions": {
-				"text": "respect「ある物事の側面、相対的な特性や性質」＋-ive「のような」。",
-				"imageSrc": "respective",
-				"imageAlt": "respective"
-			},
-			"examples": [
-				{
-					"en": "We all neet to understand more about our respective cultures.",
-					"ja": "わたしたちは皆それぞれの文化をもっと理解しなければなりません。"
-				}
-			],
-			"notes": [
-				{
-					"name": "Note 1",
-					"h2": "respectful / respective",
-					"h3": [
-						"respectful 「尊重して、敬意を払って」",
-						"respective 「それぞれの」"
-					],
-					"p3": [
-						"They have always been respectful to me.（彼らはいつもわたしを尊重してくれる）",
-						"They all went back to their respective bedrooms.（彼らは皆それぞれの部屋に戻って行った）"
-					]
-				}
-			]
+			}
 		}
-	}
-]
+	]
+}
