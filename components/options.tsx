@@ -2,13 +2,18 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import { List, ListItem, ListItemButton, ListItemText } from '@mui/material';
 import Divider from '@mui/material/Divider';
-import { Dictionary } from "@/components/dictionary";
-import styles from "styles/options.module.css";
+import { Dictionary } from './dictionary';
+import styles from 'styles/options.module.css';
 
 export function Options({ searchTerm }) {
-  const listItems = [
-    searchTerm && <Dictionary searchTerm={searchTerm} />
-  ];
+  const listItems = searchTerm ? [
+    <Dictionary searchTerm={searchTerm} />,
+    "Item 1",
+    "Item 2",
+    "Item 3",
+    "Item 4",
+    "Item 5"
+  ] : [];
 
   return (
     <div>
@@ -21,7 +26,9 @@ export function Options({ searchTerm }) {
                   <ListItemText primary={item} />
                 </ListItemButton>
               </ListItem>
-              <Divider className={styles.divider} />
+              {index < listItems.length - 1 && (
+                <Divider className={styles.divider} />
+              )}
             </React.Fragment>
           ))}
         </List>
