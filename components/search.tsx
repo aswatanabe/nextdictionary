@@ -1,5 +1,5 @@
-import styles from "styles/search.module.css";
 import * as React from 'react';
+import { useState } from 'react';
 import { Box } from '@mui/material';
 import Paper from '@mui/material/Paper';
 import InputBase from '@mui/material/InputBase';
@@ -7,12 +7,21 @@ import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
 import ClearIcon from '@mui/icons-material/Clear';
 import SearchIcon from '@mui/icons-material/Search';
+import { Dictionary } from "@/components/dictionary";
+import styles from "styles/search.module.css";
 
 export function Search() {
+	const [searchTerm, setSearchTerm] = useState('');
+
 	return (
 		<Box className={styles.box}>
-			<Paper component="form" className={styles.paper}>
+			<Paper component="form" onSubmit={(event) => event.preventDefault()} className={styles.paper}>
 				<InputBase
+					//検索機能
+					type="text"
+					value={searchTerm}
+					onChange={(event) => setSearchTerm(event.target.value)}
+					//style
 					className={styles.inputBase}
 					placeholder="単語・熟語を入力"
 					inputProps={{ 'aria-label': '単語・熟語を入力' }}
@@ -25,6 +34,7 @@ export function Search() {
 					<SearchIcon />
 				</IconButton>
 			</Paper>
+			{searchTerm && <Dictionary searchTerm={searchTerm} />}
 		</Box>
 	);
 }
