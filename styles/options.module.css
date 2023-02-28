@@ -1,4 +1,4 @@
-.box {
+:is(.box, .no-results){
 	display: flex;
 	justify-content: center;
 	align-items: center;

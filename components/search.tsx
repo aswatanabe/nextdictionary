@@ -12,6 +12,7 @@ import styles from 'styles/search.module.css';
 
 export function Search() {
 	const [searchTerm, setSearchTerm] = useState('');
+	const handleClearClick = () => setSearchTerm('');
 
 	return (
 		<div>
@@ -35,7 +36,7 @@ export function Search() {
 						type="button"
 						className={styles.iconButton}
 						aria-label="clear"
-						onClick={() => setSearchTerm('')}
+						onClick={handleClearClick}
 					>
 						<ClearIcon />
 					</IconButton>
