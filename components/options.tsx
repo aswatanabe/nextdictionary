@@ -13,9 +13,8 @@ export function Options({ searchTerm }: Props) {
   // const listItems = [<Dictionary searchTerm={searchTerm} />,"Item 2","Item 3"];
 
 	const filteredData = data.dictionary
-                    	.map((item) => item.index)
-                    	.filter((item) => item.toLowerCase().includes(searchTerm.toLowerCase())); 
-
+							.map((id) => id.title) // use the correct property name here
+							.filter((id) => id.toLowerCase().includes(searchTerm.toLowerCase()));
 	//Display only the first 5 items in the filteredData array
 	const limitedData = filteredData.slice(0, 5);
 
