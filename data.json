@@ -1,12 +1,9 @@
 {
 	"dictionary": [
 		{	
-			"index": "be used to -ing［名詞］",
-			"details": {
-				"meta": {
-					"title":"be used to -ing[名詞]｜Next Dictionary",
-					"description": "be used toの意味・使い方・例文・よく問われる問題形式について解説しています。"
-				},
+			"title": "be used to -ing［名詞］",
+			"slug": "be-used-to",
+			"content": {
 				"keyword": {
 					"h1": "be used to -ing［名詞］",
 					"p": [
@@ -82,8 +79,9 @@
 			}
 		},
 		{	
-			"index": "get used to -ing［名詞］",
-			"details": {
+			"title": "get used to -ing［名詞］",
+			"slug": "get-used-to",
+			"content": {
 				"meta": {
 					"title":"get used to -ing［名詞］|Next Dictionary",
 					"description": "get used to -ing［名詞］の意味・使い方・例文・よく問われる問題形式について解説しています。"
@@ -158,8 +156,9 @@
 			}
 		},
 		{	
-			"index": "used to＋動詞の原形",
-			"details": {
+			"title": "used to＋動詞の原形",
+			"slug": "used-to",
+			"content": {
 				"meta": {
 					"title":"used to＋動詞の原形｜Next Dictionary",
 					"description": "used to＋動詞の原形 の意味・使い方・例文・よく問われる問題形式について解説しています。"
@@ -231,8 +230,9 @@
 			}
 		},
 		{	
-			"index": "respectful",
-			"details": {
+			"title": "respectful",
+			"slug": "respectful",
+			"content": {
 				"meta": {
 					"title":"resepctful｜Next Dictionary",
 					"description": "respectfulの意味・使い方・例文・よく問われる問題形式について解説しています。"
@@ -279,8 +279,9 @@
 			}
 		},
 		{
-			"index": "respective",
-			"details": {
+			"title": "respective",
+			"slug": "respective",
+			"content": {
 				"meta": {
 					"title":"resepctive｜Next Dictionary",
 					"description": "respectiveの意味・使い方・例文・よく問われる問題形式について解説しています。"
