@@ -1,6 +1,7 @@
 {
 	"dictionary": [
-		{	
+		{
+			"id": "1",	
 			"title": "be used to -ing［名詞］",
 			"slug": "be-used-to",
 			"content": {
@@ -79,6 +80,7 @@
 			}
 		},
 		{	
+			"id": "2",
 			"title": "get used to -ing［名詞］",
 			"slug": "get-used-to",
 			"content": {
@@ -156,6 +158,7 @@
 			}
 		},
 		{	
+			"id": "3",
 			"title": "used to＋動詞の原形",
 			"slug": "used-to",
 			"content": {
@@ -230,6 +233,7 @@
 			}
 		},
 		{	
+			"id": "4",
 			"title": "respectful",
 			"slug": "respectful",
 			"content": {
@@ -279,6 +283,7 @@
 			}
 		},
 		{
+			"id": "5",
 			"title": "respective",
 			"slug": "respective",
 			"content": {
