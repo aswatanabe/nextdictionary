@@ -3,6 +3,12 @@
     background-color: var(--accent);
 }
 
+@media (min-width: 768px) {
+    .wrapper {
+        min-block-size: 60vh;
+    }
+}
+
 .title {
     display: grid;
     place-content: center;
