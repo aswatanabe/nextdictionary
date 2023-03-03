@@ -6,9 +6,7 @@
 
 .box {
 	composes: basic;
-	display: inline-block;
-	padding: 1em 2em;
-	background-color: var(--gray-75);
-	color: var(--white);
-	font-size: var(--small-headings2);
+	margin-block: 1em;
+	color: var(--accent);
+	font-weight: 900;
 }
