@@ -2,12 +2,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 50vh;
 }
 
 .paper {
 	inline-size: max(40%, 400px);
-	block-size: 50vh;
     background-color: var(--white);
 }
 
