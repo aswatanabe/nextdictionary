@@ -1,95 +1,95 @@
 @media (max-width: 768px) {
+	.btn {
+		all: unset;
+		outline: revert;
+		-webkit-tap-highlight-color: transparent;
+		cursor: pointer;
+		inline-size: 42px;
+		block-size: 42px;
+		position: relative;
+		z-index: 200;
+	}
 
-.btn {
-	all: unset;
-	outline: revert;
-	-webkit-tap-highlight-color: transparent;
-	cursor: pointer;
-	inline-size: 42px;
-	block-size: 42px;
-	position: relative;
-	z-index: 200;
-}
+	.close .btn {
+		color: var(--gray-75);
+	}
 
-.close .btn {
-	color: var(--gray-75);
-}
+	.open .btn {
+		color: var(--gray-75);
+	}
 
-.open .btn {
-	color: var(--white);
-}
+	/* ボタン内のバー */
+	.btn {
+		display: grid;
+		place-items: center;
+	}
 
-/* ボタン内のバー */
-.btn {
-	display: grid;
-	place-items: center;
-}
+	.btn::before,
+	.btn::after,
+	.btn .bar {
+		grid-area: 1 / 1;
+		content: "";
+		display: block;
+		inline-size: 32px;
+		block-size: 1px;
+		background-color: currentColor;
+	}
 
-.btn::before,
-.btn::after,
-.btn .bar {
-	grid-area: 1 / 1;
-	content: "";
-	display: block;
-	inline-size: 32px;
-	block-size: 1px;
-	background-color: currentColor;
-}
+	.close .btn::before {
+		transform: translateY(-8px);
+	}
 
-.close .btn::before {
-	transform: translateY(-8px);
-}
+	.close .btn::after {
+		transform: translateY(8px);
+	}
 
-.close .btn::after {
-	transform: translateY(8px);
-}
+	.open .btn::before {
+		transform: rotate(45deg);
+	}
 
-.open .btn::before {
-	transform: rotate(45deg);
-}
+	.open .btn::after {
+		transform: rotate(-45deg);
+	}
 
-.open .btn::after {
-	transform: rotate(-45deg);
-}
+	.open .btn .bar {
+		transform: scale(0);
+	}
 
-.open .btn .bar {
-	transform: scale(0);
-}
+	/* メニュー（オーバーレイ） */
+	.list {
+		position: fixed;
+		inset: 0 -100% 0 100%;
+		z-index: 100;
+		background-color: rgba(255,255,255,0.9);
+		color: var(--gray-50);
+		font-weight: 700;
+		transition: transform 0.4s;
+	}
 
-/* メニュー（オーバーレイ） */
-.list {
-	position: fixed;
-	inset: 0 -100% 0 100%;
-	z-index: 100;
-	background-color: rgba(0,0,0,0.8);
-	color: var(--white);
-	transition: transform 0.4s;
-}
+	.open .list {
+		transform: translateX(-100%);
+	}
 
-.open .list {
-	transform: translateX(-100%);
-}
+	/* メニュー（オーバーレイ内の配置 */
+	.list {
+		display: grid;
+		gap: 40px;
+		place-content: center;
+		text-align: center;
+	}
 
-/* メニュー（オーバーレイ内の配置 */
-.list {
-	display: grid;
-	gap: 40px;
-	place-content: center;
-	text-align: center;
-}
-
-/* スクリーンリーダー用 */
-.srOnly {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	padding: 0;
-	margin: -1px;
-	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
-	white-space: nowrap;
-	border-width: 0;
-  }
+	/* スクリーンリーダー用 */
+	.srOnly {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		margin: -1px;
+		overflow: hidden;
+		clip: rect(0, 0, 0, 0);
+		white-space: nowrap;
+		border-width: 0;
+	}
 }
 
 @media (min-width: 768px) {
