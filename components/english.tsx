@@ -1,13 +1,8 @@
 // import data from "../data.json";
 import styles from "styles/english.module.css";
 
-export function English() {
-	const english = {
-		quote: "to have experienced something so that it no longer seems surprising, difficult, strange etc",
-		source: "ロングマン現代英英辞典",
-	}
-
-	// const english = data.data.english;
+export function English(props) {
+	const { english } = props;
     return (
         <div>
 			<h2>英語説明</h2>

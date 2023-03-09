@@ -1,9 +1,8 @@
 {
-	"dictionary": [
-		{
+	"dictionary": {
+		"be-used-to":{
 			"id": "1",	
 			"title": "be used to -ing［名詞］",
-			"slug": "be-used-to",
 			"content": {
 				"keyword": {
 					"h1": "be used to -ing［名詞］",
@@ -17,9 +16,7 @@
 					"be used to -ing［名詞］ / get used to -ing［名詞］ の違いに注意",
 					"used to＋動詞の原形 / be used to -ing［名詞］ / be used to＋動詞の原形 の違いに注意"
 				],
-				"japanese": [
-					"be used to -ing［名詞］で「～に慣れている」"
-				],
+				"japanese": "be used to -ing［名詞］で「～に慣れている」",
 				"english": {
 					"quote": "to have experienced something so that it no longer seems surprising, difficult, strange etc",
 					"source": "ロングマン現代英英辞典"
@@ -79,10 +76,9 @@
 				]
 			}
 		},
-		{	
+		"get-used-to": {	
 			"id": "2",
 			"title": "get used to -ing［名詞］",
-			"slug": "get-used-to",
 			"content": {
 				"meta": {
 					"title":"get used to -ing［名詞］|Next Dictionary",
@@ -157,10 +153,9 @@
 				]
 			}
 		},
-		{	
+		"used-to": {	
 			"id": "3",
 			"title": "used to＋動詞の原形",
-			"slug": "used-to",
 			"content": {
 				"meta": {
 					"title":"used to＋動詞の原形｜Next Dictionary",
@@ -232,10 +227,9 @@
 				]
 			}
 		},
-		{	
+		"respectful": {	
 			"id": "4",
 			"title": "respectful",
-			"slug": "respectful",
 			"content": {
 				"meta": {
 					"title":"resepctful｜Next Dictionary",
@@ -282,10 +276,9 @@
 				]
 			}
 		},
-		{
+		"respective": {
 			"id": "5",
 			"title": "respective",
-			"slug": "respective",
 			"content": {
 				"meta": {
 					"title":"resepctive｜Next Dictionary",
@@ -334,5 +327,5 @@
 				]
 			}
 		}
-	]
+	}
 }
