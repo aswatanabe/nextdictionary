@@ -1,6 +1,15 @@
 import styles from 'styles/keyword.module.css';
 
-export function Keyword(props) {
+type Keyword = {
+    h1: string;
+    p: string[];
+};
+
+type Props = {
+    keyword: Keyword;
+};
+
+export function Keyword(props: Props) {
     const { keyword } = props;
     return (
         <div className={styles.sideBySide}>

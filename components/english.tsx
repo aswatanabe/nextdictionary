@@ -1,7 +1,15 @@
-// import data from "../data.json";
 import styles from "styles/english.module.css";
 
-export function English(props) {
+type English = {
+    quote: string;
+    source: string;
+};
+
+type Props = {
+    english: English;
+};
+
+export function English(props: Props) {
 	const { english } = props;
     return (
         <div>

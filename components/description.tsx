@@ -1,21 +1,31 @@
-import styles from "styles/description.module.css";
+import styles from "../styles/description.module.css";
 import Image from "next/image";
 
-export function Description(props) {
-	const { descriptions } = props;
+type Description = {
+    text: string;
+    imageSrc: string;
+    imageAlt: string;
+};
 
-	return (
-		<div>
-			<h2>解説</h2>
-			<p>{descriptions.text}</p>
-			<figure className={styles.image}>
-				<Image
-					src={`/images/${descriptions.imageSrc}`}
-					alt={descriptions.imageAlt}
-					layout="fill"
-					objectFit="cover"
-				/>
-			</figure>
-		</div>
-	);
+type Props = {
+	description: Description;
+}
+
+export function Description(props: Props) {
+    const { description } = props;
+
+    return (
+        <div>
+            <h2>解説</h2>
+            <p>{description.text}</p>
+            <figure className={styles.image}>
+                <Image
+                    src={`/images/${description.imageSrc}`}
+                    alt={description.imageAlt}
+                    layout="fill"
+                    objectFit="cover"
+                />
+            </figure>
+        </div>
+    );
 }
