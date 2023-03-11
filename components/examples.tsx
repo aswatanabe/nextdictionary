@@ -1,13 +1,13 @@
 import styles from "../styles/example.module.css";
 
-type Example = {
+type Examples = {
     id: number;
     en: string;
     ja: string;
 };
 
 type Props = {
-    examples: Example[];
+    examples: Examples[];
 };
 
 export function Examples(props: Props) {
