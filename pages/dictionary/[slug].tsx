@@ -8,7 +8,7 @@ import { Tips } from "@/components/tips";
 import { Japanese } from "@/components/japanese";
 import { English } from "@/components/english";
 import { Descriptions } from "@/components/description";
-import { Examples } from "@/components/example";
+import { Examples } from "@/components/examples";
 import { Notes } from "@/components/notes";
 import { More } from "@/components/more";
 import { Ad } from "@/components/ad";
@@ -17,47 +17,53 @@ import { GetStaticPaths, GetStaticProps } from "next";
 import data from "../../data.json";
 
 type PathParams = {
-	slug: string;
+	slug: keyof typeof data.dictionary;
+}
+
+type Dictionary = {
+	id: string;
+	title: string;
+	content: {
+		keyword: {
+			h1: string;
+			p: string[];
+		};
+		tips: {
+			id: number;
+			text: string[];
+		}
+		japanese: string;
+		english: {
+			quote: string;
+			source: string;
+		};
+		descriptions: {
+			text: string;
+			imageSrc: string;
+			imageAlt: string;
+		};
+		examples: {
+			id: number;
+			en: string;
+			ja: string;
+		}[];
+		notes: {
+			name: string;
+			h2: string;
+			h3?: string[];
+			p2?: string;
+			p3?: string[];
+		}[];
+		more?: {
+			id: number;
+			text: string;
+			example: string;
+		}[];
+	}
 }
 
 type PageProps = {
-	dictionary: {
-		[key: string]: {
-			id: string;
-			title: string;
-			content: {
-				keyword: {
-					h1: string;
-					p: string[];
-				};
-				tips: string[];
-				japanese: string;
-				english: {
-					quote: string;
-					source: string;
-				};
-				descriptions: {
-					text: string;
-				};
-				examples: {
-					en: string;
-					ja: string;
-				}[];
-				notes: {
-					name: string;
-					h2: string;
-					h3?: string[];
-					p2?: string;
-					p3?: string[];
-				}[];
-				more: {
-					id: number;
-					text: string;
-					example: string;
-				}[] | null;
-			};
-		};
-	};
+	dictionary: Dictionary;
 }
 
 export const getStaticPaths: GetStaticPaths<PathParams> = async () => {
@@ -73,9 +79,10 @@ export const getStaticPaths: GetStaticPaths<PathParams> = async () => {
 export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
 	const { slug } = params as PathParams;
 	const dictionary = data.dictionary[slug];
-	console.log(dictionary);
 	return {
-		props: {dictionary}
+		props: {
+			dictionary: dictionary
+		}
 	};
 };
 
