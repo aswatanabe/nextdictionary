@@ -1,13 +1,13 @@
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import styles from "styles/tips.module.css";
 
-type Tip = {
+type Tips = {
     id: number;
-    text: string;
+    text: string[];
 };
 
 type Props = {
-    tips: Tip[];
+    tips: Tips;
 };
 
 export function Tips(props: Props) {
@@ -17,12 +17,20 @@ export function Tips(props: Props) {
         <div>
             <h2>Tips</h2>
             <ul>
-                {tips.map((tip) => (
-                    <li key={tip.id}>
-                        <AutoAwesomeIcon className={styles.listIcon} />
-                        {tip.text}
-                    </li>
-                ))}
+                {Array.isArray(tips)
+                    ? tips.map((tip, index) => (
+                        <li key={index}>
+                            <AutoAwesomeIcon className={styles.listIcon} />
+                            {tip}
+                        </li>
+                    ))
+                    : (
+                        <li key={tips.id}>
+                            <AutoAwesomeIcon className={styles.listIcon} />
+                            {tips.text}
+                        </li>
+                    )
+                }
             </ul>
         </div>
     );

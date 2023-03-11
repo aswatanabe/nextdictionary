@@ -1,27 +1,27 @@
 import styles from "../styles/description.module.css";
 import Image from "next/image";
 
-type Description = {
+type Descriptions = {
     text: string;
     imageSrc: string;
     imageAlt: string;
 };
 
 type Props = {
-	description: Description;
+	descriptions: Descriptions;
 }
 
-export function Description(props: Props) {
-    const { description } = props;
+export function Descriptions(props: Props) {
+    const { descriptions } = props;
 
     return (
         <div>
             <h2>解説</h2>
-            <p>{description.text}</p>
+            <p>{descriptions.text}</p>
             <figure className={styles.image}>
                 <Image
-                    src={`/images/${description.imageSrc}`}
-                    alt={description.imageAlt}
+                    src={`/images/${descriptions.imageSrc}`}
+                    alt={descriptions.imageAlt}
                     layout="fill"
                     objectFit="cover"
                 />

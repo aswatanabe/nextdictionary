@@ -3,11 +3,11 @@ import AttachFileIcon from '@mui/icons-material/AttachFile';
 import styles from "styles/eachNote.module.css";
 
 type Props = {
-    name: string
-    h2?: string
-    p2?: string
-    h3?: string[]
-    p3?: string[]
+    name: string;
+    h2?: string;
+    p2?: string;
+    h3?: string[];
+    p3?: string[];
 };
 
 export function EachNote(props: Props) {
