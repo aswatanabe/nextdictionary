@@ -7,14 +7,13 @@ import { Keyword } from "@/components/keyword";
 import { Tips } from "@/components/tips";
 import { Japanese } from "@/components/japanese";
 import { English } from "@/components/english";
-import { Description } from "@/components/description";
+import { Descriptions } from "@/components/description";
 import { Examples } from "@/components/example";
-import { Note } from "@/components/note";
+import { Notes } from "@/components/notes";
 import { More } from "@/components/more";
 import { Ad } from "@/components/ad";
 //for dynamic routing
 import { GetStaticPaths, GetStaticProps } from "next";
-import { useRouter } from "next/router";
 import data from "../../data.json";
 
 type PathParams = {
@@ -23,21 +22,41 @@ type PathParams = {
 
 type PageProps = {
 	dictionary: {
-		id: string;
-		keyword: string;
-		tips: string[];
-		japanese: string;
-		english: string;
-		description: string[];
-		example: {
-			japanese: string;
-			english: string;
-		}[];
-		notes: string[];
-		more: {
-			link: string;
+		[key: string]: {
+			id: string;
 			title: string;
-		}[];
+			content: {
+				keyword: {
+					h1: string;
+					p: string[];
+				};
+				tips: string[];
+				japanese: string;
+				english: {
+					quote: string;
+					source: string;
+				};
+				descriptions: {
+					text: string;
+				};
+				examples: {
+					en: string;
+					ja: string;
+				}[];
+				notes: {
+					name: string;
+					h2: string;
+					h3?: string[];
+					p2?: string;
+					p3?: string[];
+				}[];
+				more: {
+					id: number;
+					text: string;
+					example: string;
+				}[] | null;
+			};
+		};
 	};
 }
 
@@ -78,10 +97,10 @@ export default function Home( props: PageProps ){
 						<Tips tips={content.tips}/>
 						<Japanese japanese={content.japanese}/>
 						<English english={content.english}/>
-						<Description descriptions={content.descriptions}/>
+						<Descriptions descriptions={content.descriptions}/>
 						<Examples examples={content.examples}/>
 						<Ad height="md" />
-						<Note notes={content.notes}/>
+						<Notes notes={content.notes}/>
 						{content.more !=null && <More more={content.more}/> }
 					</TwoColumnMain>
 					<TwoColumnSidebar>
