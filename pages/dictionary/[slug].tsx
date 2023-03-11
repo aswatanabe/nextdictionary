@@ -16,10 +16,6 @@ import { Ad } from "@/components/ad";
 import { GetStaticPaths, GetStaticProps } from "next";
 import data from "../../data.json";
 
-type PathParams = {
-	slug: keyof typeof data.dictionary;
-}
-
 type Dictionary = {
 	id: string;
 	title: string;
@@ -63,7 +59,11 @@ type Dictionary = {
 }
 
 type PageProps = {
-	dictionary: Dictionary;
+	dictionary: keyof typeof data.dictionary;
+}
+
+type PathParams = {
+	slug: keyof typeof data.dictionary;
 }
 
 export const getStaticPaths: GetStaticPaths<PathParams> = async () => {
