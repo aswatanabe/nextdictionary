@@ -24,10 +24,7 @@ type Dictionary = {
 			h1: string;
 			p: string[];
 		};
-		tips: {
-			id: number;
-			text: string[];
-		}
+		tips: string[];
 		japanese: string;
 		english: {
 			quote: string;
@@ -35,11 +32,10 @@ type Dictionary = {
 		};
 		descriptions: {
 			text: string;
-			imageSrc: string;
-			imageAlt: string;
+			imageSrc?: string;
+			imageAlt?: string;
 		};
 		examples: {
-			id: number;
 			en: string;
 			ja: string;
 		}[];
@@ -47,11 +43,10 @@ type Dictionary = {
 			name: string;
 			h2: string;
 			h3?: string[];
-			p2?: string;
+			p2: string;
 			p3?: string[];
 		}[];
 		more?: {
-			id: number;
 			text: string;
 			example: string;
 		}[];
