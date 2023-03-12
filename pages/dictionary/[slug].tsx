@@ -87,9 +87,10 @@ export default function Home( props: PageProps ){
 	return (
 		<div>
 			<Meta
-				pageTitle="検索ワード"
-				pageDesc="検索ワードの意味・使い方・例文・よく問われる問題形式について解説しています。"
+				pageTitle={content.keyword.h1}
+				pageDesc={`${content.keyword.h1}の意味・使い方・例文・よく問われる問題形式について解説しています。`}
 			/>
+
 			<Search />
 			<Container>
 				<TwoColumn>
