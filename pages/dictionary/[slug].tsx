@@ -58,12 +58,12 @@ type Dictionary = {
 	}
 }
 
-type PageProps = {
-	dictionary: keyof typeof data.dictionary;
-}
-
 type PathParams = {
 	slug: keyof typeof data.dictionary;
+}
+
+type PageProps = {
+	dictionary: Dictionary;
 }
 
 export const getStaticPaths: GetStaticPaths<PathParams> = async () => {
