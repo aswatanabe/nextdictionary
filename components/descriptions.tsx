@@ -20,7 +20,7 @@ export function Descriptions(props: Props) {
             <p>{descriptions.text}</p>
             <figure className={styles.image}>
                 <Image
-                    src={`/images/${descriptions.imageSrc}`}
+                    src={`/${descriptions.imageSrc}`}
                     alt={`${descriptions.imageAlt}`}
                     layout="fill"
                     objectFit="cover"
