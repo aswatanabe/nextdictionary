@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Box } from '@mui/material';
 import Paper from '@mui/material/Paper';
 import InputBase from '@mui/material/InputBase';
@@ -13,6 +13,12 @@ import styles from 'styles/search.module.css';
 export function Search() {
 	const [searchTerm, setSearchTerm] = useState('');
 	const handleClearClick = () => setSearchTerm('');
+
+	useEffect(() => {
+		if (typeof window !== 'undefined') {
+			setSearchTerm('');
+		}
+	}, [typeof window !== 'undefined' && window.location.pathname]);
 
 	return (
 		<div>
