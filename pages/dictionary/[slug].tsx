@@ -7,7 +7,7 @@ import { Keyword } from "@/components/keyword";
 import { Tips } from "@/components/tips";
 import { Japanese } from "@/components/japanese";
 import { English } from "@/components/english";
-import { Descriptions } from "@/components/description";
+import { Descriptions } from "@/components/descriptions";
 import { Examples } from "@/components/examples";
 import { Notes } from "@/components/notes";
 import { More } from "@/components/more";
