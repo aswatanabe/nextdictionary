@@ -43,7 +43,7 @@ type Dictionary = {
 			name: string;
 			h2: string;
 			h3?: string[];
-			p2: string;
+			p2?: string;
 			p3?: string[];
 		}[];
 		more?: {
