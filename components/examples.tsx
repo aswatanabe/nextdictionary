@@ -1,7 +1,6 @@
 import styles from "../styles/example.module.css";
 
 type Examples = {
-    id: number;
     en: string;
     ja: string;
 };
@@ -16,8 +15,8 @@ export function Examples(props: Props) {
     return (
         <div>
             <h2>例</h2>
-            {examples.map((example) => (
-                <div key={example.id} className={styles.example}>
+            {examples.map((example, index) => (
+                <div key={index} className={styles.example}>
                     <p>{example.en}</p>
                     <p>{example.ja}</p>
                 </div>

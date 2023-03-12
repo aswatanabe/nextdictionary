@@ -1,13 +1,8 @@
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import styles from "styles/tips.module.css";
 
-type Tips = {
-    id: number;
-    text: string[];
-};
-
 type Props = {
-    tips: Tips;
+    tips: string[];
 };
 
 export function Tips(props: Props) {
@@ -25,9 +20,9 @@ export function Tips(props: Props) {
                         </li>
                     ))
                     : (
-                        <li key={tips.id}>
+                        <li>
                             <AutoAwesomeIcon className={styles.listIcon} />
-                            {tips.text}
+                            {tips}
                         </li>
                     )
                 }
