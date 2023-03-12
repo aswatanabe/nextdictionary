@@ -8,8 +8,8 @@ type Descriptions = {
 };
 
 type Props = {
-	descriptions: Descriptions;
-}
+    descriptions: Descriptions;
+};
 
 export function Descriptions(props: Props) {
     const { descriptions } = props;
@@ -18,14 +18,16 @@ export function Descriptions(props: Props) {
         <div>
             <h2>解説</h2>
             <p>{descriptions.text}</p>
-            <figure className={styles.image}>
-                <Image
-                    src={`/${descriptions.imageSrc}`}
-                    alt={`${descriptions.imageAlt}`}
-                    layout="fill"
-                    objectFit="cover"
-                />
-            </figure>
+            {descriptions.imageSrc && (
+                <figure className={styles.image}>
+                    <Image
+                        src={`/${descriptions.imageSrc}`}
+                        alt={`${descriptions.imageAlt}`}
+                        layout="fill"
+                        objectFit="cover"
+                    />
+                </figure>
+            )}
         </div>
     );
 }
