@@ -3,8 +3,8 @@ import Image from "next/image";
 
 type Descriptions = {
     text: string;
-    imageSrc: string;
-    imageAlt: string;
+    imageSrc?: string;
+    imageAlt?: string;
 };
 
 type Props = {
@@ -21,7 +21,7 @@ export function Descriptions(props: Props) {
             <figure className={styles.image}>
                 <Image
                     src={`/images/${descriptions.imageSrc}`}
-                    alt={descriptions.imageAlt}
+                    alt={`${descriptions.imageAlt}`}
                     layout="fill"
                     objectFit="cover"
                 />
