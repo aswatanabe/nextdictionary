@@ -63,7 +63,7 @@
 						"p3": [
 							"I used to cook. Now I don't.（以前は料理をしたが、今はしない）",
 							"I am used to cooking with herbs and spices.（ハーブやスパイスで料理をすることに慣れている）",
-							"What kitchen equipment is used?（なんのキッチン用品が使われていますか？）"
+							"What kitchen equipment is used to make this apple pie?（このアップルパイを作るためになんのキッチン用品が使われていますか？）"
 						]
 					}
 				],
@@ -130,20 +130,6 @@
 							"\"Aren't you cold?\" \"I'm used to the weather here.\"（「寒くない？」「ここの天気には慣れてるよ」）",
 							"Tomorrow I start a new job. I have to get used to it soon.（明日から新しい仕事だ。早く慣れないと）"
 						]
-					},
-					{
-						"name": "Note 3",
-						"h2": "used to＋動詞の原形 / be used to -ing［名詞］ / be used to＋動詞の原形",
-						"h3": [
-							"used to＋動詞の原形 「以前は～だった」",
-							"be used to -ing［名詞］ 「～するのに慣れている」",
-							"be used to＋動詞の原形 「～するために使われる」"
-						],
-						"p3": [
-							"I used to cook. Now I don't.（以前は料理をしたが、今はしない）",
-							"I am used to cooking with herbs and spices.（ハーブやスパイスで料理をすることに慣れている）",
-							"What kitchen equipment is used?（なんのキッチン用品が使われていますか？）"
-						]
 					}
 				]
 			}
@@ -202,7 +188,7 @@
 						"p3": [
 							"I used to cook. Now I don't.（以前は料理をしたが、今はしない）",
 							"I am used to cooking with herbs and spices.（ハーブやスパイスで料理をすることに慣れている）",
-							"What kitchen equipment is used?（なんのキッチン用品が使われていますか？）"
+							"What kitchen equipment is used to make this apple pie?（このアップルパイを作るためになんのキッチン用品が使われていますか？）"
 						]
 					},
 					{
