@@ -102,7 +102,10 @@ export default function Home( props: PageProps ){
 						<English english={content.english}/>
 						<Descriptions descriptions={content.descriptions}/>
 						<Examples examples={content.examples}/>
-						<Ad height="md" />
+						<div style={{display: 'flex', gap:'var(--space-xs)'}}>
+  							<Ad height="md" />
+  							<Ad height="md" />
+						</div>
 						<Notes notes={content.notes}/>
 						{content.more !=null && <More more={content.more}/> }
 					</TwoColumnMain>
