@@ -1,5 +1,13 @@
 .image {
 	position: relative;
+	margin-block-start: var(--space-xs);
 	inline-size: 100%;
 	aspect-ratio: 1/1;
+	border: 1px solid var(--gray-10);
+}
+
+@media (min-width: 768px) {
+	.image {
+		aspect-ratio: 16/9;
+	}
 }

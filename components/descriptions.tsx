@@ -24,7 +24,7 @@ export function Descriptions(props: Props) {
                         src={`/${descriptions.imageSrc}`}
                         alt={`${descriptions.imageAlt}`}
                         layout="fill"
-                        objectFit="cover"
+                        objectFit="contain"
                     />
                 </figure>
             )}
