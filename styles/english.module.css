@@ -1,5 +1,15 @@
 .blockquote {
     margin-inline-start: auto;
+    font-style: italic;
+}
+
+.blockquoteBefore {
+    color: var(--gray-50);
+    transform: scale(-1, 1);
+}
+
+.blockquoteAfter {
+    color: var(--gray-50);
 }
 
 .figcaption {
