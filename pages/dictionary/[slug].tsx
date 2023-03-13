@@ -1,4 +1,5 @@
 import React from "react";
+import { useRouter } from "next/router";
 import { Meta } from "@/components/meta";
 import { Container } from "@/components/container";
 import { TwoColumn, TwoColumnMain, TwoColumnSidebar } from "@/components/twoColumn";
@@ -84,6 +85,8 @@ export const getStaticProps: GetStaticProps<PageProps> = async ({ params }) => {
 export default function Home( props: PageProps ){
 	const { dictionary } = props;
 	const { content } = dictionary;
+	const router = useRouter();
+
 	return (
 		<div>
 			<Meta
@@ -91,7 +94,7 @@ export default function Home( props: PageProps ){
 				pageDesc={`${content.keyword.h1}の意味・使い方・例文・よく問われる問題形式について解説しています。`}
 			/>
 
-			<Search />
+			<Search key={router.asPath} />
 			<Container>
 				<TwoColumn>
 					<TwoColumnMain>
@@ -103,8 +106,8 @@ export default function Home( props: PageProps ){
 						<Descriptions descriptions={content.descriptions}/>
 						<Examples examples={content.examples}/>
 						<div style={{display: 'flex', gap:'var(--space-xs)'}}>
-  							<Ad height="md" />
-  							<Ad height="md" />
+							<Ad height="md" />
+							<Ad height="md" />
 						</div>
 						<Notes notes={content.notes}/>
 						{content.more !=null && <More more={content.more}/> }

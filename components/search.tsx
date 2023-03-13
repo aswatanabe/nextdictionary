@@ -14,12 +14,6 @@ export function Search() {
 	const [searchTerm, setSearchTerm] = useState('');
 	const handleClearClick = () => setSearchTerm('');
 
-	useEffect(() => {
-		if (typeof window !== 'undefined') {
-			setSearchTerm('');
-		}
-	}, [typeof window !== 'undefined' && window.location.pathname]);
-
 	return (
 		<div>
 			<Box className={styles.box}>
